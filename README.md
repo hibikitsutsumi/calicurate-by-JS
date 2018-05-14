@@ -41,3 +41,13 @@
   
   document.getElementById("here").innerHTML = oddNumbers;
   
+  -------------------------------------------------------
+  
+	let userDetails = [];
+	userDetails[0] = prompt("what is your first name?");
+	userDetails[1] = prompt("what is your last name?");
+	userDetails[2] = prompt("how old are you?");
+	
+	let info = document.getElementById("here").innerHTML = userDetails[0] + " " + userDetails[1] + " " + userDetails[2];
+	
+  
